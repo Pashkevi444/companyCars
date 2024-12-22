@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>2</id>
+		<name>Cars</name>
+		<table_name>cars_table</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>2</id>
+			<lid>ru</lid>
+			<name>Автомобили</name>
+		</lang>
+		<lang>
+			<id>2</id>
+			<lid>en</lid>
+			<name>cars</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>129</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_NUMBER</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>NUMBER</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>car number</en>
+				<ru>Номер автомобиля</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>car number</en>
+				<ru>Номер автомобиля</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>car number</en>
+				<ru>Номер автомобиля</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>130</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_MODEL</field_name>
+			<user_type_id>hlblock</user_type_id>
+			<xml_id>MODEL</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<hlblock_id>5</hlblock_id>
+				<hlfield_id>128</hlfield_id>
+				<default_value />
+				<hlblock_table>cars_models_table</hlblock_table>
+			</settings>
+			<edit_form_label>
+				<en>Car model</en>
+				<ru>Модель автомобиля</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Car model</en>
+				<ru>Модель автомобиля</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Car model</en>
+				<ru>Модель автомобиля</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>131</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_COMFORT_CATEGORY</field_name>
+			<user_type_id>hlblock</user_type_id>
+			<xml_id>COMFORT_CATEGORY</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<hlblock_id>4</hlblock_id>
+				<hlfield_id>132</hlfield_id>
+				<default_value />
+				<hlblock_table>comfort_categories_table</hlblock_table>
+			</settings>
+			<edit_form_label>
+				<en>Comfort Category</en>
+				<ru>Категория комфорта</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Comfort Category</en>
+				<ru>Категория комфорта</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Comfort Category</en>
+				<ru>Категория комфорта</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>133</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_BOOKED</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id>BOOKED</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>RADIO</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<en>car already booked</en>
+				<ru>Машина занята</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>car already booked</en>
+				<ru>Машина занята</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>car already booked</en>
+				<ru>Машина занята</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>134</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_EMPLOYEE</field_name>
+			<user_type_id>employee</user_type_id>
+			<xml_id>EMPLOYEE</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+			</settings>
+			<edit_form_label>
+				<en>Employee that booked car</en>
+				<ru>Сотрудник который забронировал автомобиль</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Employee that booked car</en>
+				<ru>Сотрудник который забронировал автомобиль</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Employee that booked car</en>
+				<ru>Сотрудник который забронировал автомобиль</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>enum</base_type>
+			<enums>
+			</enums>
+		</field>
+		<field>
+			<id>135</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_START_BOOKING_TIME</field_name>
+			<user_type_id>datetime</user_type_id>
+			<xml_id>START_BOOKING_TIME</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NONE</type>
+					<value />
+				</default_value>
+				<use_second>N</use_second>
+				<use_timezone>N</use_timezone>
+			</settings>
+			<edit_form_label>
+				<en>Start booking time</en>
+				<ru>Время начала бронирования</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Start booking time</en>
+				<ru>Время начала бронирования</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Start booking time</en>
+				<ru>Время начала бронирования</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+		<field>
+			<id>136</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_END_BOOKING_TIME</field_name>
+			<user_type_id>datetime</user_type_id>
+			<xml_id>END_BOOKING_TIME</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>
+					<type>NONE</type>
+					<value />
+				</default_value>
+				<use_second>N</use_second>
+				<use_timezone>N</use_timezone>
+			</settings>
+			<edit_form_label>
+				<en>Time of end booking</en>
+				<ru>Время окончания бронирования</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Time of end booking</en>
+				<ru>Время окончания бронирования</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Time of end booking</en>
+				<ru>Время окончания бронирования</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>datetime</base_type>
+		</field>
+		<field>
+			<id>137</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_CAR_RIDER</field_name>
+			<user_type_id>employee</user_type_id>
+			<xml_id>CAR_RIDER</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+			</settings>
+			<edit_form_label>
+				<en>Car rider</en>
+				<ru>Водитель</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Car rider</en>
+				<ru>Водитель</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Car rider</en>
+				<ru>Водитель</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>enum</base_type>
+			<enums>
+			</enums>
+		</field>
+	</fields>
+</hiblock>

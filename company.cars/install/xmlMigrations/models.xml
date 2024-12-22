@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>5</id>
+		<name>CarsModels</name>
+		<table_name>cars_models_table</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>5</id>
+			<lid>ru</lid>
+			<name>Модели автомобилей</name>
+		</lang>
+		<lang>
+			<id>5</id>
+			<lid>en</lid>
+			<name>Cars Models</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>128</id>
+			<entity_id>HLBLOCK_5</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>NAME</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Model car name</en>
+				<ru>Название модели автомобиля</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en>Model car name</en>
+				<ru>Название модели автомобиля</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en>Model car name</en>
+				<ru>Название модели автомобиля</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+	</fields>
+</hiblock>
