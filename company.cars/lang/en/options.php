@@ -1,4 +1,0 @@
-<?php
-
-$MESS['COMPANY_CARS_INPUT_APPLY'] = 'Apply';
-$MESS['COMPANY_CARS_INPUT_RESET'] = 'Reset';
